@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log in | Netflix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="auth">
+
+  <div class="auth-top">
+    <header class="auth-head">
+      <div class="wrap">
+        <a href="index.html" class="logo">NETFLIX</a>
+      </div>
+    </header>
+
+    <main>
+      <form class="auth-form" action="home.html" method="get">
+        <h1>Enter your details to log in</h1>
+        <p class="sub">New here? <a href="signup.html">Create an account</a>.</p>
+
+        <div class="field">
+          <input id="email" name="email" type="email" placeholder=" " autocomplete="email" required>
+          <label for="email">Email address</label>
+        </div>
+        <div class="field">
+          <input id="pw" name="pw" type="password" placeholder=" " autocomplete="current-password" required>
+          <label for="pw">Password</label>
+        </div>
+
+        <button class="btn-main" type="submit">Continue</button>
+
+        <details class="help">
+          <summary>Get Help</summary>
+          <ul>
+            <li><a href="#">I forgot my password</a></li>
+            <li><a href="#">I need help with my account</a></li>
+          </ul>
+        </details>
+
+        <p class="recaptcha">The details you enter are not stored or sent anywhere.</p>
+      </form>
+    </main>
+  </div>
+
+  <footer class="auth-footer">
+    <div class="site-footer">
+      <p class="contact">Questions? <a href="#">Contact us</a>.</p>
+      <ul class="foot-links">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Ways to Watch</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
